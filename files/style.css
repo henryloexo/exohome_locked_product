@@ -1,0 +1,46 @@
+body {
+    background-color: #E5E5E5;
+    margin: 0px;
+}
+.conMainApp {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 30px;
+    color: #3C3C42;
+    position: relative;
+}
+
+.murano-logo {
+    height: 40px;
+    padding: 15px 0px 10px 30px;
+}
+
+.topbar {
+    background: linear-gradient(#212937, #1D404E);
+}
+
+.paper {
+    background: white;
+    max-width: 520px;
+    padding: 30px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    box-shadow: 3px 5px 10px #adacac;
+}
+
+.mve-image {
+    opacity: .2;
+}
+
+i {
+    color: #CE8C31;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-size: 20px;
+}
