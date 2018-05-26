@@ -18,6 +18,10 @@ info:
   # The version of the Project
   version: 1.0.0
 
+default_page: index.html
+
+file_dir: public
+
 services: # Also applies for service configuration using .yaml format.
   location: services
   include: '**/*.lua'
