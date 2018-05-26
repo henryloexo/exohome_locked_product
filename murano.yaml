@@ -23,5 +23,9 @@ services: # Also applies for service configuration using .yaml format.
   include: '**/*.lua'
   exclude: ['*_test.lua', '*_spec.lua']
 
+assets:
+  location: assets
+  include: '*.*'
+
 # The format version of this file. This is required.
 formatversion: 1.0.0
