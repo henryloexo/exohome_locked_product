@@ -2,7 +2,7 @@
 # First up is some metadata about this project.
 info:
   # Nice short and easy. Also must be a valid domain name component.
-  name: lockedsolutionskeleton
+  name: Home Automation Micro-Vertical
 
   # Short one line summary of this project.
   summary: An application template to stage as a placeholder for a locked solution.
@@ -13,7 +13,7 @@ info:
     locked solution is setup and configure for each unique install instance.
 
   # Who made this
-  authors: ["ryankucera@exosite.com", "charliegn@exosite.com"]
+  authors: ["trishahsiao@exosite.com"]
 
   # The version of the Project
   version: 1.0.0
