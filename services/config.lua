@@ -25,4 +25,5 @@ matches the following schema:
 
 local JSONreply = {}
 JSONreply.status = "pending"
+JSONreply.disabled = true
 return JSONreply
