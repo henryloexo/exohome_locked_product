@@ -13,7 +13,7 @@ info:
     locked solution is setup and configure for each unique install instance.
 
   # Who made this
-  authors: ["trishahsiao@exosite.com, charliegn@exosite.com"]
+  authors: ["trishahsiao@exosite.com"]
 
   # The version of the Project
   version: 1.0.0
