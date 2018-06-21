@@ -3,7 +3,7 @@ An application template to stage as a placeholder for a locked solution.
 
 ## Overview
 - This template should be used when a customer has requested a locked solution but custom configuration/management is required before their application can be made available to them.
-- Individuals listed in the "authors" section will be automatically invited to the business that has requested the locked solution.
+- Individuals listed in the "authors" section of `murano.yaml` will be automatically invited to the business that has requested the locked solution.
 - The placeholder template includes static assets that will appear at the user's application URL to indicate that custom setup is being performed.
 - A "status" endpoint is exposed from the config service in order to provide proper user feedback within the Murano UI.
 - This template should be replaced with the live locked solution instance after custom configuration is complete.
