@@ -2,7 +2,7 @@
 -- this will return a default json payload that passes healthcheck endpoint validation
 
 --[[
-Upon successful install of the application, this enpoint should return a payload that
+Upon successful install of the application, this endpoint should return a payload that
 matches the following schema:
 
 {
@@ -10,7 +10,7 @@ matches the following schema:
 		id:"...",
 		application_type: "rcm|hamv"
 		application_version: "1.3.1",
-		status:"online|offline|pending|degraded",
+		status:"online|offline|requested|degraded",
 		capabilities:[
 		   {"title":"User",
        "description":"User profile and auth functionality",
@@ -24,6 +24,6 @@ matches the following schema:
 --]]
 
 local JSONreply = {}
-JSONreply.status = "pending"
+JSONreply.status = "requested"
 JSONreply.disabled = true
 return JSONreply
