@@ -18,6 +18,11 @@ info:
   # The version of the Project
   version: 1.0.0
 
+endpoints:
+  location: endpoints
+  include: '**/*.lua'
+  exclude: ['*_test.lua', '*_spec.lua']
+
 services: # Also applies for service configuration using .yaml format.
   location: services
   include: '**/*.lua'
