@@ -1,8 +1,8 @@
 --#ENDPOINT GET /account
 
-local kv = Keystore.get({
+local M = require('murano.lua')
+local kv = M('Keystore', 'get', {
 	key = 'demo',
 })
-assert(kv.error == nil, 'Failed to get demo from Keystore.')
 
 response.message = kv.value

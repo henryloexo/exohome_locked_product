@@ -32,6 +32,11 @@ assets:
   location: assets
   include: '*.*'
 
+modules:
+  location: modules
+  include: '**/*.lua'
+  exclude: ['*_test.lua', '*_spec.lua']
+
 # The format version of this file. This is required.
 formatversion: 1.0.0
 init_script: init.lua
