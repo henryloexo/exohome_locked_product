@@ -1,7 +1,7 @@
 --#ENDPOINT GET /account
 
 local M = require('murano.lua')
-local kv = M('Keystore', 'get', {
+local kv = M.call('Keystore', 'get', {
 	key = 'demo',
 })
 
