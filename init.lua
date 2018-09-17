@@ -1,3 +1,4 @@
+[[
 local M = require('murano.lua')
 
 local email = string.format('demoUser%s%d@exohome.demo', os.time(os.date('!*t')), math.random(999))
@@ -34,3 +35,4 @@ local setKvDemoOptions = {
 	}),
 }
 M('Keystore', 'set', setKvDemoOptions)
+]]
